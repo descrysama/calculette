@@ -27,21 +27,18 @@ let result;
 switch (parameter) {
     case "+" :
         result = num1 + num2;
-        document.getElementById("fonction-display").innerHTML = result;
         break;
     case "-" :
         result = num1 - num2;
-        document.getElementById("fonction-display").innerHTML = result;
         break;
     case "*" :
         result = num1 * num2;
-        document.getElementById("fonction-display").innerHTML = result;
         break;
     case "/" :
         result = num1 / num2;
-        document.getElementById("fonction-display").innerHTML = result;
         break;
 }
 
+document.getElementById("fonction-display").innerHTML = result;
 
 // SWITCH SECTION
